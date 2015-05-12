@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="AGV669"
+  version="0.6b"
+  name="AGV669"
+  provider-name="AGUSTIN AGV669">
+  <requires>
+    <c-pluff version="0.1"/>
+    <import addon="xbmc.pvr" version="1.9.2"/>
+  </requires>
+  <extension
+    point="xbmc.pvrclient"
+    library_linux="Kodi_AGV669.pvr"
+	  library_osx="Kodi_AGV669.pvr"
+    library_freebsd="Kodi_AGV669.pvr"
+    library_wingl="Kodi_AGV669.dll"
+    library_windx="Kodi_AGV669.dll"
+    library_android="libKodi_AGV669.so" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Disfruta la tv online gratis</summary>
+    <description lang="en">CREADO POR AGV669</description>
+    <disclaimer lang="en">apoyanos </disclaimer>
+    <platform>wingl windx</platform>
+  </extension>
+</addon>

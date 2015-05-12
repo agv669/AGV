@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <setting id="mac" type="text" label="30000" default="00:1A:79:88:97:2F" />
+    <setting id="server" type="text" label="30001" default="http://pastebin.com/raw.php?i=bF8Gw320" />
+    <setting id="time_zone" type="text" label="30002" default="Europe/Kiev" />
+</settings>
